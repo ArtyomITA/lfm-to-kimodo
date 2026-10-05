@@ -1,0 +1,8 @@
+# oltre a torch (installalo con la build CUDA giusta per la tua scheda) e a kimodo
+# (git clone + pip install -e)
+numpy>=1.24,<2
+sentence-transformers>=3.4,<4
+pillow>=10
+bvhio            # export BVH
+fastapi          # solo per bridge/ (generazione dal vivo da Unity)
+uvicorn          # idem

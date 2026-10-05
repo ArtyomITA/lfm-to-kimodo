@@ -1,0 +1,6 @@
+# un prompt per riga, le righe con # sono ignorate
+a person waves hello with the right hand
+a person bows deeply then stands back up
+a person walks forward at a relaxed pace
+a person sits down on a chair and crosses their legs
+an old person shuffles forward slowly, leaning on a cane
