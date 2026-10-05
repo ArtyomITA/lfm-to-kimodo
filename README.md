@@ -237,11 +237,28 @@ img/                 le gif di questa pagina
 
 ## Link
 
-- [la mappa su Hugging Face](https://huggingface.co/adriandj3/LFM2.5-to-Llama8B-LLM2Vec-Kimodo)
-- [LLM2Vec-8B su una GPU da 8 GB, e batch che non rovina gli embedding](https://github.com/ArtyomITA/llm2vec-8gb-offload-lossless-batching)
-- [Kimodo](https://github.com/nv-tlabs/kimodo)
-- [il plugin Unity di partenza](https://github.com/Amin-HP/Kimodo-Unity)
-- [LFM2.5-Embedding-350M](https://huggingface.co/LiquidAI/LFM2.5-Embedding-350M)
+Miei:
+
+- [la mappa su Hugging Face](https://huggingface.co/adriandj3/LFM2.5-to-Llama8B-LLM2Vec-Kimodo), pesi e scheda
+- [la collection con tutto il lavoro sugli embedding](https://huggingface.co/collections/adriandj3/llama8b-llm2vec-embeddings)
+- [LLM2Vec-8B su una GPU da 8 GB, e batch che non rovina gli embedding](https://github.com/ArtyomITA/llm2vec-8gb-offload-lossless-batching):
+  i due fix che hanno reso possibile costruire le 14 mila coppie di addestramento
+- [github.com/ArtyomITA](https://github.com/ArtyomITA) e [huggingface.co/adriandj3](https://huggingface.co/adriandj3)
+
+Modelli da scaricare:
+
+- [nvidia/Kimodo-SOMA-RP-v1.1](https://huggingface.co/nvidia/Kimodo-SOMA-RP-v1.1), il generatore di
+  movimento, ~1,5 GB, licenza da accettare
+- [LiquidAI/LFM2.5-Embedding-350M](https://huggingface.co/LiquidAI/LFM2.5-Embedding-350M),
+  l'encoder di testo, ~700 MB
+
+Di terzi:
+
+- [Kimodo](https://github.com/nv-tlabs/kimodo), il codice NVIDIA
+- [Amin-HP/Kimodo-Unity](https://github.com/Amin-HP/Kimodo-Unity), il plugin Unity da cui deriva
+  il bridge
+- [McGill-NLP/LLM2Vec](https://github.com/McGill-NLP/llm2vec), l'encoder originale che qui viene
+  sostituito
 
 ## Licenze
 
